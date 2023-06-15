@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+main p{
+    margin: 35px 0px 0px 15px;
+}
+header{
+    padding: 0px 0px 0px 0px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 200px;
+}
+header > h1{
+    font-size: 6em;
+    padding: 25px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    font-size: 10vh;
+}
+header a{
+    /*header>a não funcionou porque o a está dentro do p*/
+    color: white;
+    text-decoration: none;
+    padding: 0px 0px 0px 0px;
+
+}
+header a:hover{
+    text-decoration: underline;
+}
+main{
+    
+}
+#pt2{
+    background-image: url('imagens/background001.jpg');
+    background-position: center center;
+    height: 600px;
+    background-attachment: fixed;
+    color: white;
+    font-size: 2em;
+}
+#pt4{
+    background-image: url('imagens/background002.jpg');
+    background-position: center top;
+    height: 600px;
+    background-attachment: fixed;
+    color: white;
+}
+.cinza{
+    background-color: rgba(0, 0, 0, 0.582);
+    height: 500px;
+    width: 400px;
+    margin: 10px 10px 10px 10px;
+    
+}
+.blk{
+    background-color: white;
+    font-size: 2em;
+    color: black;
+    padding: 3px 0px 0px 0px;
+}
+
+footer{
+    height: 15px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 3vh;
+}
+footer p{
+    padding: 8px 0px 0px 0px;
+}
